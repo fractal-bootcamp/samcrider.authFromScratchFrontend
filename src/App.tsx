@@ -22,6 +22,7 @@ const App = () => {
     if (initialUser) {
       setUser(initialUser);
     }
+    console.log("hello");
   };
 
   // use hydrateAuth
